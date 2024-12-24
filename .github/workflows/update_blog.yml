@@ -15,8 +15,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Han
-      uses: 
+    - name: Checkout
+      uses: actions/checkout@v2
 
     - name: Push changes
       run: |
